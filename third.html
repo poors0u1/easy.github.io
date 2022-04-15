@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Question</title>
+    <link rel="stylesheet" href="css/ex1.css">
+
+</head>
+<header>
+    <a href="#" class = "logo"></a>
+</header>
+<body>
+    <script src="js/third.js"></script>
+    <script src="https://kit.fontawesome.com/25eb108376.js" crossorigin="anonymous"></script>
+    <div class="main-container">
+        <h2>Выберите слово «улица»</h2>
+        <div class="radio-buttons" name="radio">
+
+            <label class="custom-radio" id="1">
+                <input type="radio" name="radio" id="first" value="one">
+                <span class="radio-btn">
+                    <div class="car-icon">
+                        <i class="fa-solid fa-road"></i>
+                        <h3>жол</h3>
+                    </div>
+                </span>
+            </label>
+
+            <label class="custom-radio" id="2">
+                <input type="radio" name="radio" id="second" value="two">
+                <span class="radio-btn">
+                    <div class="car-icon">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                        <h3>құн</h3>
+                    </div>
+                </span>
+            </label>
+
+            <label class="custom-radio" id="3">
+                <input type="radio" name="radio" id="third" value="three">
+                <span class="radio-btn">
+                    <div class="car-icon">
+                        <i class="fa-solid fa-hotel"></i>
+                        <h3>көше</h3>
+                    </div>
+                </span>
+            </label>
+        </div>
+        <div class="reaction" id="hide"> 
+            <input type="button" id="btn1" class="checked" onclick="check(); vis();" value="Проверить">
+            <input type="button" id="btn2" disabled class="checked" onclick="document.location='fourth.html'" value="Дальше">
+        </div>
+        <div class="text" id="text"></div>
+</body>
+</html>
